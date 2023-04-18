@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="762.0" style="-fx-background-color: #000000; " xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.theaters.controllers.WelcomeController">
+    <Text fill="WHITE" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добро пожаловать в базу театров" textAlignment="CENTER" wrappingWidth="762.0">
+        <font>
+            <Font name="Times New Roman Bold" size="40.0" />
+        </font>
+    </Text>
+    <AnchorPane layoutX="11.0" layoutY="67.0" prefHeight="457.0" prefWidth="741.0" style="-fx-background-color: #ffffff;">
+        <TextField fx:id="userName" alignment="CENTER" layoutX="279.0" layoutY="129.0" prefHeight="40.0" prefWidth="180.0" text="admin_theater" />
+        <TextField fx:id="password" alignment="CENTER" layoutX="281.0" layoutY="179.0" prefHeight="40.0" prefWidth="180.0" text="1234" />
+        <Button fx:id="welcome" layoutX="308.0" layoutY="229.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="127.0" style="-fx-background-radius: 100; -fx-background-color: silver;" text="Войти" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="exit" layoutX="600.0" layoutY="355.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="127.0" style="-fx-background-radius: 100; -fx-background-color: silver;" text="Выйти" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Times New Roman Bold" size="20.0" />
+            </font>
+        </Button>
+    </AnchorPane>
+</AnchorPane>
