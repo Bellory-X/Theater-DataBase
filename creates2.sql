@@ -17,7 +17,7 @@ CREATE TABLE Залы
 	Конец TIMESTAMP NOT NULL,
 	Название CHARACTER VARYING(30) NOT NULL,
 	Id_Спектакля INTEGER NOT NULL REFERENCES Спектакли(Id) ON DELETE CASCADE,
-	UNIQUE(Начало, Конец, Название)
+	UNIQUE(Название, Id_Спектакля)
 )
 
 CREATE TABLE Места
